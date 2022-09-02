@@ -59,19 +59,7 @@
     box-shadow: 0 0 4px #999;
     outline: none;
 }
-/* Ripple effect */
-.product .ripple {
-    background-position: center;
-    transition: 0.8s;
-  }
-  .product .ripple:hover {
-    background: #0202b3 radial-gradient(circle, transparent 1%, #0202b3 1%) center/15000%;
-  }
-  .product .ripple:active {
-    background-color: #0404eb;
-    background-size: 100%;
-    transition:  0s;
-  }
+
   
   /* media Queries */
   @media screen and (max-width: 1366px) {

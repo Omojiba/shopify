@@ -23,7 +23,7 @@ const handleAddToCart = (product) =>{
         <img src={product.image}/>
         <div className="details">
           <p className='description'>{product.desc}</p>
-          <p className='price'>₦{product.price}</p>
+          <p className='price'>₦{product.price.toLocaleString()}</p>
         </div>
 
         <button className='ripple' onClick={() => handleAddToCart(product)}>Add to Cart</button>

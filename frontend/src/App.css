@@ -5,7 +5,25 @@
   box-sizing: border-box;
   font-family: "Raleway", "Sans-serif";
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 /* .App{
   padding: 2rem 5rem;
 } */
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: 0.8s;
+}
+ .ripple:hover {
+  background: #0202b3 radial-gradient(circle, transparent 1%, #0202b3 1%) center/15000%;
+}
+ .ripple:active {
+  background-color: #0404eb;
+  background-size: 100%;
+  transition:  0s;
+}
 
